@@ -14,7 +14,7 @@ function App() {
       </div>
       <h1>SignToText</h1>
       <div className="card">
-        <button>
+        <button id="openCamera">
           Activate/Deactivate Camera
         </button>
         <p>
