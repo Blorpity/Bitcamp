@@ -12,10 +12,11 @@ function App() {
       </div>
       <h1>SignToText</h1>
       <div className="card">
-        <input type="checkbox" id="sCamera"/>
-        <label htmlFor="sCamera">Open Camera</label>
+        <button id="openCamera">
+          Activate/Deactivate Camera
+        </button>
         <p>
-          Click on the checkbox to access the camera and begin recording
+          Click on the button to begin/end recording
         </p>
       </div>
 
@@ -24,3 +25,6 @@ function App() {
 }
 
 export default App
+
+//<input type="checkbox" id="sCamera" name="interest" value="coding"/>
+//<label htmlFor="sCamera">Open Camera</label>
