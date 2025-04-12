@@ -1,4 +1,4 @@
-# Bitcamp
+# Bitcamp-SignToText
 Bitcamp project
 
 Built in (Insert here when we have an answer)
