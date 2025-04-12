@@ -1,9 +1,7 @@
-//import { useState } from 'react'
-import sttLogo from './assets/SIgnToText.svg'
+import sttLogo from './assets/SignToText.svg'
 import './App.css'
 
 function App() {
-  //const [count, setCount] = useState(0)
 
   return (
     <>
@@ -14,11 +12,10 @@ function App() {
       </div>
       <h1>SignToText</h1>
       <div className="card">
-        <button id="openCamera">
-          Activate/Deactivate Camera
-        </button>
+        <input type="checkbox" id="sCamera"/>
+        <label htmlFor="sCamera">Open Camera</label>
         <p>
-          Click on the button to begin/end recording
+          Click on the checkbox to access the camera and begin recording
         </p>
       </div>
 
