@@ -20,7 +20,7 @@ export default defineConfig({
       input: {
         main: './index.html',
       },
-      external: ['/SignToText.png'],
+      external: ['/SignToText.svg'],
     },
   },
 });
