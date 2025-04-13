@@ -1,3 +1,8 @@
+import {
+    FilesetResolver,
+    HandLandmarker
+  } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest";
+  
 // const videoElement = document.getElementById('webcam');
 // const canvasElement = document.getElementById('output');
 // const canvasContext = canvasElement.getContext('2d');
@@ -76,9 +81,13 @@ async function setupCamera() {
 }
 
 async function createHandLandmarker() {
+    const { FilesetResolver, HandLandmarker } = window;
+
     const vision = await FilesetResolver.forVisionTasks(
         "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision/wasm"
     );
+
+
     handLandmarker = await handLandmarker.createFromOptions(vision, {
         baseOptions: {
             modelAssetPath:
@@ -91,6 +100,9 @@ async function createHandLandmarker() {
 
 async function main() {
     await setupCamera();
+    setupCamera().then(() => {
+        console.log("Camera started successfully");
+      });
     await createHandLandmarker();
     video.play();
 
