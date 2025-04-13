@@ -11,4 +11,4 @@ Why is it useful?: Removes long hours of sitting at a desk and typing away, now 
 
 Where can you get help with this project?: Email us at tonatiuhula8@gmail.com
 
-Maintainers/Contributers: Tonatiuh Leung-Arellano, Brian Mullinix, Blessing, Moyao Zhou
+Maintainers/Contributers: Tonatiuh Leung-Arellano, Brian Mullinix, Blessing Nwah, Moyao Zhou
