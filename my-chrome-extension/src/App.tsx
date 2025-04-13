@@ -19,7 +19,11 @@ function App() {
           Click on the button to begin/end recording
         </p>
       </div>
-
+      <div className="read-the-docs">
+        <p>
+          Go to Extension Settings to enable webcam access
+        </p>
+      </div>
     </>
   )
 }
