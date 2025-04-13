@@ -15,7 +15,7 @@ function App() {
       <div className="card">
         <WebcamToggle/>
         <p>
-          Click on the button to begin/end recording
+          Click on the button to begin/end webcam
         </p>
       </div>
       <div className="read-the-docs">
