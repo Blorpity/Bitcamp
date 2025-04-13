@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-    <script type="module" crossorigin src="/assets/main-Du2DC73L.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-D8b4DHJx.css">
+    <title>SignToText</title>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest"></script>
+
+    <script type="module" crossorigin src="/assets/main-BNxkOF9N.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-Ca8y4vIQ.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+    <div id="asl-camera">
+      <video id="webcam" autoplay playsinline></video>
+    </div>
+    
+    <canvas id="output"></canvas>
+    <div id="prediction">Detected Letter: <span>-</span></div>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
