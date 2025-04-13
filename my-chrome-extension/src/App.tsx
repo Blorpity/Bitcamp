@@ -1,5 +1,5 @@
 import sttLogo from './assets/SignToText.svg'
-import WebcamToggle from './assets/popups'
+import WebcamToggle from './popups'
 import './App.css'
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       </div>
       <div className="read-the-docs">
         <p>
-          Go to Extension Settings to enable webcam access
+          Go to the web permissions for SignToText and change camera permissions to "Allow" 
         </p>
       </div>
     </>
