@@ -1,10 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "React Chrome Extension",
+    "name": "SignToText",
     "version": "1.0.0",
-    "description": "A simple React app as a Chrome extension",
+    "description": "Browser Extension for ASL users to have a sign-to-text feature for writing on google docs. We are beginning with support for the ASL alphabet",
     "action": {
       "default_popup": "index.html"
     },
-    "permissions": []
+    "permissions": ["camera"]
+
   }

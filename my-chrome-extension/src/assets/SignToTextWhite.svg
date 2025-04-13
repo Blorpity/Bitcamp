@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" width="100" height="40">
+	<title>SignToText</title>
+	<defs>
+		<image  width="87" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAmAQMAAACLeJVLAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAABv0lEQVR4nGNkYPzNwsBgc4SBeS8jA/Ofgw4MdU0M6hcZGeQffBSQv/BR8d9/Rob6hp8c9gceKv9iZGT4/9/qRG1S4/JpiYwMz3/szPj5tGk911lGxkcyPzl/XJ20/+c5RvY7Ur/FX12dNH9WKCP/FVEG9TpHVrEFoYxyrr0c7nFOLGIPVBlttMWqK3t/n4vY8Jax5vWNyoOtd7cI+HEz1n3tVLj7VVCg35+ZMW/iX4U97xUscj98YcyfsDN1Nz+PVuHHj4z/v7CKf2D4sySBYSfj855WIHsBQ8Indsb0GXOLyzP1qtMeizMW98gyZpXzdz93EmcskKiwdasUPJ3uGMNYsOKFpfuOi/3Zf2cwGrx4Ucj/YeL0/J8WjBYPXnzs/zB5at4vIPvJ0/0MCxZLvvpVwGhx5ftehgXLRV/9+sAo8e1npcOCdXyvfj1glHnF+POAgt4/ps/3GWVes386wBDzgeHrfkb5J7+ZHihYXPvEXMvIv8maJWFBwbxP/B8Z+TdGvCic8F5c890jRr5PFifsD91Xf+lzBMyWe7rX+W7ECSDb4ILE69rm2g0XYOzGejj7LyM6m+0XAwPHbzAbALEN0semESZuAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="5" y="1"/>
+</svg>
