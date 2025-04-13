@@ -1,5 +1,5 @@
 # Bitcamp-SignToText
-Bitcamp project
+Unfinished Bitcamp project
 
 Built in VS Code
 
