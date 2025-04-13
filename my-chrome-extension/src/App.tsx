@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import sttLogo from './assets/SignToText.svg'
+import WebcamToggle from './assets/popups'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://en.wikipedia.org/wiki/American_Sign_Language" target="_blank">
+          <img src={sttLogo} className="logo" alt="Vite logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>SignToText</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <WebcamToggle/>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Click on the button to begin/end recording
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="read-the-docs">
+        <p>
+          Go to Extension Settings to enable webcam access
+        </p>
+      </div>
     </>
   )
 }
 
 export default App
+
+//<input type="checkbox" id="sCamera" name="interest" value="coding"/>
+//<label htmlFor="sCamera">Open Camera</label>
