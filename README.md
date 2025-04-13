@@ -9,6 +9,6 @@ What does it do?: Browser Extension for ASL users to have a "sign-to-text" featu
 
 Why is it useful?: Removes long hours of sitting at a desk and typing away, now you can sign into your computer's camera and it'll read your signs!
 
-Where can you get help with this project?: Email me at tonatiuhula8@gmail.com
+Where can you get help with this project?: Email us at tonatiuhula8@gmail.com
 
-Maintainers/Contributers: Blorpity, Brian Mullinix, Blessing, Moyao
+Maintainers/Contributers: Tonatiuh Leung-Arellano, Brian Mullinix, Blessing, Moyao Zhou
